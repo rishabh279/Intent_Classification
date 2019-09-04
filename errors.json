@@ -1,0 +1,10 @@
+[
+    {
+        "text": "when is the next train to garching",
+        "intent": "FindConnection",
+        "intent_prediction": {
+            "name": "DepartureTime",
+            "confidence": 0.5958792737205905
+        }
+    }
+]

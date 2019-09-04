@@ -1,0 +1,422 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "i want to go marienplatz",
+        "intent": "FindConnection",
+        "entities": [
+          {
+            "entity": "StationDest",
+            "start": 13,
+            "value": "marienplatz",
+            "end": 24
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "when does the next u-bahn leaves from garching forschungszentrum?",
+        "intent": "DepartureTime",
+        "entities": [
+          {
+            "entity": "Vehicle",
+            "start": 19,
+            "value": "u-bahn",
+            "end": 25
+          },
+          {
+            "entity": "Criterion",
+            "start": 14,
+            "value": "next",
+            "end": 18
+          },
+          {
+            "entity": "StationStart",
+            "start": 38,
+            "value": "garching forschungszentrum",
+            "end": 64
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "when is the next train from winterstraße 12 to kieferngarten",
+        "intent": "FindConnection",
+        "entities": [
+          {
+            "entity": "Vehicle",
+            "start": 17,
+            "value": "train",
+            "end": 22
+          },
+          {
+            "entity": "Criterion",
+            "start": 12,
+            "value": "next",
+            "end": 16
+          },
+          {
+            "entity": "StationStart",
+            "start": 28,
+            "value": "winterstraße 12",
+            "end": 43
+          },
+          {
+            "entity": "StationDest",
+            "start": 47,
+            "value": "kieferngarten",
+            "end": 60
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "can you find a connection from garching to hauptbahnhof?",
+        "intent": "FindConnection",
+        "entities": [
+          {
+            "entity": "StationStart",
+            "start": 31,
+            "value": "garching",
+            "end": 39
+          },
+          {
+            "entity": "StationDest",
+            "start": 43,
+            "value": "hauptbahnhof",
+            "end": 55
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "how i can get from marienplatz to garching",
+        "intent": "FindConnection",
+        "entities": [
+          {
+            "entity": "StationStart",
+            "start": 19,
+            "value": "marienplatz",
+            "end": 30
+          },
+          {
+            "entity": "StationDest",
+            "start": 34,
+            "value": "garching",
+            "end": 42
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "how to get from bonner platz to freimann?",
+        "intent": "FindConnection",
+        "entities": [
+          {
+            "entity": "StationStart",
+            "start": 16,
+            "value": "bonner platz",
+            "end": 28
+          },
+          {
+            "entity": "StationDest",
+            "start": 32,
+            "value": "freimann",
+            "end": 40
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "how do i get from oez to hbf?",
+        "intent": "FindConnection",
+        "entities": [
+          {
+            "entity": "StationStart",
+            "start": 18,
+            "value": "oez",
+            "end": 21
+          },
+          {
+            "entity": "StationDest",
+            "start": 25,
+            "value": "hbf",
+            "end": 28
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "how do i get from garching forschungszentrum to pasing",
+        "intent": "FindConnection",
+        "entities": [
+          {
+            "entity": "StationStart",
+            "start": 18,
+            "value": "garching forschungszentrum",
+            "end": 44
+          },
+          {
+            "entity": "StationDest",
+            "start": 48,
+            "value": "pasing",
+            "end": 54
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "how can i get from theresienstraße to munich east?",
+        "intent": "FindConnection",
+        "entities": [
+          {
+            "entity": "StationStart",
+            "start": 19,
+            "value": "theresienstraße",
+            "end": 34
+          },
+          {
+            "entity": "StationDest",
+            "start": 38,
+            "value": "munich east",
+            "end": 49
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "from quiddestraße to garching?",
+        "intent": "FindConnection",
+        "entities": [
+          {
+            "entity": "StationStart",
+            "start": 5,
+            "value": "quiddestraße",
+            "end": 17
+          },
+          {
+            "entity": "StationDest",
+            "start": 21,
+            "value": "garching",
+            "end": 29
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "can you find a connection from quiddestraße to garching forschungszentrum?",
+        "intent": "FindConnection",
+        "entities": [
+          {
+            "entity": "StationStart",
+            "start": 31,
+            "value": "quiddestraße",
+            "end": 43
+          },
+          {
+            "entity": "StationDest",
+            "start": 47,
+            "value": "garching forschungszentrum",
+            "end": 73
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "from hauptbahnhof to garching?",
+        "intent": "FindConnection",
+        "entities": [
+          {
+            "entity": "StationStart",
+            "start": 5,
+            "value": "hauptbahnhof",
+            "end": 17
+          },
+          {
+            "entity": "StationDest",
+            "start": 21,
+            "value": "garching",
+            "end": 29
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "how i can get from garching to nordfriedhof",
+        "intent": "FindConnection",
+        "entities": [
+          {
+            "entity": "StationStart",
+            "start": 19,
+            "value": "garching",
+            "end": 27
+          },
+          {
+            "entity": "StationDest",
+            "start": 31,
+            "value": "nordfriedhof",
+            "end": 43
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "when is the next train leaving in garching forschungszentrum",
+        "intent": "DepartureTime",
+        "entities": [
+          {
+            "entity": "Vehicle",
+            "start": 17,
+            "value": "train",
+            "end": 22
+          },
+          {
+            "entity": "Criterion",
+            "start": 12,
+            "value": "next",
+            "end": 16
+          },
+          {
+            "entity": "StationStart",
+            "start": 34,
+            "value": "garching forschungszentrum",
+            "end": 60
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "how can i get from moosach to poccistraße?",
+        "intent": "FindConnection",
+        "entities": [
+          {
+            "entity": "StationStart",
+            "start": 19,
+            "value": "moosach",
+            "end": 26
+          },
+          {
+            "entity": "StationDest",
+            "start": 30,
+            "value": "poccistraße",
+            "end": 41
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "how can i get from moosach to quiddestraße?",
+        "intent": "FindConnection",
+        "entities": [
+          {
+            "entity": "StationStart",
+            "start": 19,
+            "value": "moosach",
+            "end": 26
+          },
+          {
+            "entity": "StationDest",
+            "start": 30,
+            "value": "quiddestraße",
+            "end": 42
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "when does the next bus starts at garching?",
+        "intent": "DepartureTime",
+        "entities": [
+          {
+            "entity": "Vehicle",
+            "start": 19,
+            "value": "bus",
+            "end": 22
+          },
+          {
+            "entity": "Criterion",
+            "start": 14,
+            "value": "next",
+            "end": 18
+          },
+          {
+            "entity": "StationStart",
+            "start": 33,
+            "value": "garching",
+            "end": 41
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "when is the next bus from ostbahnhof",
+        "intent": "DepartureTime",
+        "entities": [
+          {
+            "entity": "Vehicle",
+            "start": 17,
+            "value": "bus",
+            "end": 20
+          },
+          {
+            "entity": "Criterion",
+            "start": 12,
+            "value": "next",
+            "end": 16
+          },
+          {
+            "entity": "StationStart",
+            "start": 26,
+            "value": "ostbahnhof",
+            "end": 36
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "when is the next train in munchner freiheit?",
+        "intent": "DepartureTime",
+        "entities": [
+          {
+            "entity": "Vehicle",
+            "start": 17,
+            "value": "train",
+            "end": 22
+          },
+          {
+            "entity": "Criterion",
+            "start": 12,
+            "value": "next",
+            "end": 16
+          },
+          {
+            "entity": "StationStart",
+            "start": 26,
+            "value": "munchner freiheit",
+            "end": 43
+          }
+        ],
+        "training": false
+      },
+      {
+        "text": "how do i get from poccistraße to laim",
+        "intent": "FindConnection",
+        "entities": [
+          {
+            "entity": "StationStart",
+            "start": 18,
+            "value": "poccistraße",
+            "end": 29
+          },
+          {
+            "entity": "StationDest",
+            "start": 33,
+            "value": "laim",
+            "end": 37
+          }
+        ],
+        "training": false
+      }
+    ]
+  }
+}
