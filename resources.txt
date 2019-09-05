@@ -1,0 +1,22 @@
+## About Chatbots and Intents 
+https://medium.com/@brijrajsingh/chat-bots-designing-intents-and-entities-for-your-nlp-models-35c385b7730d
+https://www.freecodecamp.org/news/how-i-made-a-smarter-chatbot-with-intents-5e6ad6e0fd71/
+https://s3.amazonaws.com/assets.datacamp.com/production/course_3631/slides/chapter2.pdf
+https://chatbotslife.com/nlp-nlu-nlg-and-how-chatbots-work-dd7861dfc9df
+
+## About NLU and AI Asistant
+https://legacy-docs.rasa.com/docs/
+https://forum.rasa.com/
+https://dialogflow.com/
+https://wit.ai/
+https://dev.botframework.com/
+https://aws.amazon.com/lex/
+https://www.globalme.net/blog/lex-vs-dialogflow-vs-watson-vs-rasa
+
+## Intent Classification and Entity Extraction
+https://mrbot.ai/blog/natural-language-processing/understanding-intent-classification/
+https://blog.vsoftconsulting.com/blog/intent-classification-and-its-significance-in-chatbot-development
+https://towardsdatascience.com/a-brief-introduction-to-intent-classification-96fda6b1f557
+https://blog.rasa.com/rasa-nlu-in-depth-part-1-intent-classification/
+https://towardsdatascience.com/a-beginners-guide-to-rasa-nlu-for-intent-classification-and-named-entity-recognition-a4f0f76b2a96
+https://medium.com/rasa-blog/supervised-word-vectors-from-scratch-in-rasa-nlu-6daf794efcd8
