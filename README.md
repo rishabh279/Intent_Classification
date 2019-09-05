@@ -1,5 +1,7 @@
 # Installation Instructions
 
+Intent Classification and Entity Extraction using RASA framework
+
 1.Navigate to project folder.  
 
 2.Run 'pip install requirements.txt'.  
